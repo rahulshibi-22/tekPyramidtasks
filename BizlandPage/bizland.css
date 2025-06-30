@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container1{
+    height: 100vh;
+    width: 100vw;
+}
+.upperNav{
+    background-color: rgb(45, 112, 255);
+    height: 44px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px ;
+
+}
+
+.upperNav a{
+    color: white;
+    text-decoration: none;
+}
+.leftupperNav, .rightupperNav{
+    display: flex;
+    gap: 10px;
+}
+.leftupperNav a{
+    display: flex;
+    gap: 2px;
+    height: 100%;
+    align-items: center;
+}
+/* --------------LOWER DIV NAV---------------------- */
+.lowerNav{
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /*It is used for make a space(align) at the end.*/
+}
+
+.lowerNav a{
+    color: black;
+    text-decoration: none;
+}
+.leftlowerNav{
+    font-size: large;
+}
+.leftlowerNav h2 span{
+    color: blue;
+}
+.rightlowerNav{
+    display: flex;
+    gap: 40px;
+    padding: 0 180px;
+}
+.rightlowerNav select{
+    background: transparent;
+    border: none;
+}
+
+.main{
+    background-image: url(./hero-bg.jpg);
+    height: 80%;
+    width: 100%;
+    display: flex;    
+}
+
+.mainleftContent{
+    margin: 242px  0 0 210px;
+    display: flex;
+    flex-direction: column;
+}
+.mainleftContent span{
+    color: blue;
+}
+.afterPara{
+    display: flex;
+    gap: 10px;
+}
+.afterPara button{
+    background-color:  rgb(45, 112, 255);
+    height: 32px;
+    width: 160px;
+    border-radius: 4px;
+    position: absolute;
+    left: 208px;
+    bottom: 248px;
+}
+.afterPara a{
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    left: 430px;
+    top: 450px;
+}
+.afterPara i{
+    position: absolute;
+    left: 396px;
+    top: 446px;
+    font-size: 24px;
+}
+
+/* -------------------ABOUT(Container2)----------------------- */
+.container2{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;align-items: center;
+}
+.leftPart img{
+    height: 400px;
+    width: 400px;
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.part1 h6{
+    color: rgb(79, 79, 236);
+}
+.part1 span{
+    color: rgb(79, 79, 236);
+}
+
+.part2{
+    display: flex;
+}
+.rightPart{
+    margin: 40px 0 20px 20px;
+    padding: 12px;
+}
+.midPara1,.midPara2{
+    display: flex;
+    justify-content: start;
+    padding: 20px
+}
+.midPara1 i{
+    display: flex;
+}
+/* .midPara1{
+    padding: 20px
+} */

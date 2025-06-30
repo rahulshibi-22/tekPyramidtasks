@@ -1,0 +1,155 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.container1>.nav{
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    border: none;
+}
+
+.searchBar{
+    display: flex;
+}
+.searchBar>input{
+    height: 40px;
+    width: 320px;
+}
+.searchBar>button{
+    height: 40px;
+    width: 40px;
+    background-color: black;
+}
+#serviceSrech{
+    height: 20px;
+    width: 20px;
+}
+.bx-search-alt-2{
+    font-size: 20px;
+    color: white;
+}
+
+.nav > h1,
+.nav label,
+.nav select,
+.nav input,
+.footer h3,
+.left h1,
+.left p,
+.left button {
+  font-family: 'Helvetica Neue', 'Segoe UI', 'Proxima Nova', 'Montserrat', sans-serif;
+  /* font-style: normal; */
+  font-weight: 400;
+  font-size: 18px;
+}
+
+
+.nav>a{
+    border: none;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#langSearch{
+    height: 40px;
+    width: 40px;
+}
+#serviceSrech{
+    height: 40px;
+    width: 40px;
+}
+.nav>#btn1{
+    height: 40px;
+    position: absolute;
+    left:480px;
+    top:30px;
+    
+}
+.nav>input{
+    height: 40px;
+    width: 200px;
+}
+.nav>select{
+    height: 40px;
+    border: none;
+}
+.nav>h1{
+    font-family: 'Proxima Nova', 'Montserrat', 'Avenir', sans-serif;
+}
+.nav>h1>span{
+    font-size: 50px;
+    font-family: 'Montserrat', 'Proxima Nova', 'sans-serif';
+}
+
+.container2{
+    background-color: rgb(5, 50, 5);
+    display: flex;
+    justify-content: space-between;
+}
+.container2>.right2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2>.right>img{
+    height: 80%;
+    width: 80%;
+    margin-top: 110px;
+}
+
+.container2>.left{
+    gap: 30px;
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container2>.left>h1{
+    font-family: 'Proxima Nova', 'Montserrat', 'Avenir', sans-serif;
+    font-weight: 200;
+    font-size: 60px;
+    margin-left: 60px;
+}
+.left>p{
+    font-family: 'Proxima Nova', 'Helvetica Neue', 'Avenir', sans-serif;
+    margin-left: 70px;
+}
+.left>button{
+    padding: 10px;
+    margin-right: 400px;
+    color: white;
+    background-color: rgb(11, 139, 11);
+    border-radius: 8px;
+    border: none;
+}
+
+.container1>.footer{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.footer>h3{
+    font-size: 120%;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.left>h5{
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    position: absolute;
+    left: 66px;
+    bottom: 140px;
+}
