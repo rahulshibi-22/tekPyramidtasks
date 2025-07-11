@@ -1,0 +1,25 @@
+    @media(min-width:700px) and (max-width:1000px){
+    .outer{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmmax(200px,1fr));
+    gap: 20px;
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+    }
+}
+
+.outer div{
+    height: 250px;
+    width: 250px;
+    background-color: aqua;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.outer{
+    display: flex;
+    grid: 100 px;
+    flex-wrap: wrap;
+    
+}

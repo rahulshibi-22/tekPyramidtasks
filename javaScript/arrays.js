@@ -1,0 +1,1 @@
+let arr = ["Rahul Shibi",22,"Kanniyakuamri",true,[20,40],{job : "CEO"}];

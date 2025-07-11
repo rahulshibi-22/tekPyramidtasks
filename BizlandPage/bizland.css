@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 0px;
     box-sizing: border-box;
 }
 .container1{
@@ -15,7 +15,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 20px ;
-
 }
 
 .upperNav a{
@@ -89,7 +88,7 @@
     border-radius: 4px;
     position: absolute;
     left: 208px;
-    bottom: 248px;
+    bottom: 246px;
 }
 .afterPara a{
     color: black;
@@ -107,44 +106,215 @@
 
 /* -------------------ABOUT(Container2)----------------------- */
 .container2{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;align-items: center;
+    height: 80vh;
+    width: 80vw;
+    /* display: flex; */
+    /* flex-direction: column;align-items: center; */
 }
-.leftPart img{
-    height: 400px;
-    width: 400px;
-}
-.part1{
+
+.cen{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    justify-content: center;
 }
-.part1 h6{
+.cen h6{
+    width: 50px;
+    background-color: aqua;
     color: rgb(79, 79, 236);
+    border-radius: 30px;
+    margin-top: 8px;
+    
 }
 .part1 span{
     color: rgb(79, 79, 236);
 }
+.part1{
+    text-align: center;
+}
+ /* Center the section and limit its width */
+.part2-wrapper {
+  max-width: 1100px;
+  width: 100%;
+  padding: 20px;
+  margin: auto;
+}
 
-.part2{
+/* Image and Text side-by-side */
+.part2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  position: relative;
+  left: 62px;
+}
+
+/* Image side */
+.leftPart img {
+  width: 102%;
+  height: 340px;
+  border-radius: 4px;
+}
+
+/* Right content */
+.rightPart {
+  flex: 1;
+  padding: 10px 10px;
+}
+
+.rightPart h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2c2c2c;
+  margin-bottom: 10px;
+}
+
+.rightPart p {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* Mid content rows (icon + text) */
+.midPara1, .midPara2 {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.midPara1 i, .midPara2 i {
+  font-size: 24px;
+  background-color: #eef2fb;
+  padding: 10px;
+  border-radius: 50%;
+  color: #0d6efd;
+  min-width: 40px;
+  text-align: center;
+}
+
+.midPara1 p, .midPara2 p {
+  margin: 0;
+  font-size: 14px;
+  color: #444;
+  line-height: 3;
+}
+
+/* -------------------ABOUT(Container2)----------------------- */
+.container3{
+    height: 100vh;
+    width: 100vw;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* flex-direction: column;align-items: center; */
+}
+
+.servicePart1 {
+    text-align: center;
+}
+.servicePart1 h6{
+    color: #0d6efd;
+    background-color: aqua;
+    width: 80px;
+    height: 20px;
+    position: relative;
+    left: 730px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
-.rightPart{
-    margin: 40px 0 20px 20px;
-    padding: 12px;
+.servicePart1 span{
+    color: #0d6efd;
 }
-.midPara1,.midPara2{
+/* ----------------------Grid------------------------------- */
+/* .servicePart2 {
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    gap: 20px;
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+} */
+ 
+ .servicePart2 {
+    margin: 2%;
+    display: grid;
+    grid-template-areas:
+        "card1 card2 card3"
+        "card4 card5 card6"
+    ;
+    gap: 10px;
+    grid-auto-rows: 180px;
+    grid-auto-columns: 320px;
+    color: white;
+    text-align: center;
+    /* font-size: small; */
+    justify-content: center;
+    background-color: white;
+    color: black;
+}
+
+ .servicePart2 i{
+    color: #0d6efd;
     display: flex;
-    justify-content: start;
-    padding: 20px
-}
-.midPara1 i{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+ }
+
+.card1 {
+    grid-area: card1;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
-/* .midPara1{
-    padding: 20px
+
+.card2 {
+    grid-area: card2;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card3 {
+    grid-area: card3;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card4 {
+    grid-area: card4;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card5 {
+    grid-area: card5;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card6 {
+    grid-area: card6;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+/* ---------------------------------------------------------------- */
+/* .container3 .servicePart2 .card1,.card2,.card3,.card4,.card5,.card6
+{
+    background-color: white;
+    color: black;
+} */
+
+
+/* @media(min-screen:700px){
+    .servicePart2{
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(2,400px);
+    gap: 20px;
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+    }
 } */

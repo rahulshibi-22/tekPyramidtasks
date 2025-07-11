@@ -1,0 +1,27 @@
+h2 + p {
+  font-style: italic;
+  color: burlywood;
+}
+
+button:hover {
+  background-color: yellow;
+}
+input:focus {
+  outline: 2px solid blue;
+}
+li:first-child {
+  color: red;
+}
+p::first-letter {
+  font-size: 200%;
+  color: red;
+}
+#title1::before {
+  content: "🔥 ";
+}
+#title1::first-letter {
+  color: red;
+}
+#contact::after{
+    content: " 📞";
+}
