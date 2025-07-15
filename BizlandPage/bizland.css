@@ -1,88 +1,102 @@
-*{
+* {
     margin: 0;
     padding: 0px;
     box-sizing: border-box;
 }
-.container1{
+
+.container1 {
     height: 100vh;
     width: 100vw;
 }
-.upperNav{
+
+.upperNav {
     background-color: rgb(45, 112, 255);
     height: 44px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px ;
+    padding: 0 20px;
 }
 
-.upperNav a{
+.upperNav a {
     color: white;
     text-decoration: none;
 }
-.leftupperNav, .rightupperNav{
+
+.leftupperNav,
+.rightupperNav {
     display: flex;
     gap: 10px;
 }
-.leftupperNav a{
+
+.leftupperNav a {
     display: flex;
     gap: 2px;
     height: 100%;
     align-items: center;
 }
+
 /* --------------LOWER DIV NAV---------------------- */
-.lowerNav{
+.lowerNav {
     background-color: white;
     height: 80px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px; /*It is used for make a space(align) at the end.*/
+    padding: 0 20px;
+    /*It is used for make a space(align) at the end.*/
 }
 
-.lowerNav a{
+.lowerNav a {
     color: black;
     text-decoration: none;
 }
-.leftlowerNav{
+
+.leftlowerNav {
     font-size: large;
 }
-.leftlowerNav h2 span{
+
+.leftlowerNav h2 span {
     color: blue;
 }
-.rightlowerNav{
+
+.rightlowerNav {
     display: flex;
     gap: 40px;
     padding: 0 180px;
 }
-.rightlowerNav select{
+
+.rightlowerNav select {
     background: transparent;
     border: none;
 }
 
-.main{
+.main {
     background-image: url(./hero-bg.jpg);
     height: 80%;
     width: 100%;
-    display: flex;    
+    display: flex;
 }
 
-.mainleftContent{
-    margin: 242px  0 0 210px;
+.mainleftContent {
+    margin: 242px 0 0 210px;
     display: flex;
     flex-direction: column;
 }
-.mainleftContent span{
+
+.mainleftContent span {
     color: blue;
 }
-.afterPara{
+
+.afterPara {
     display: flex;
     gap: 10px;
 }
-.afterPara button{
-    background-color:  rgb(45, 112, 255);
+
+.afterPara button {
+    background-color: rgb(45, 112, 255);
     height: 32px;
     width: 160px;
     border-radius: 4px;
@@ -90,118 +104,127 @@
     left: 208px;
     bottom: 246px;
 }
-.afterPara a{
+
+.afterPara a {
     color: black;
     text-decoration: none;
     position: absolute;
     left: 430px;
-    top: 450px;
+    top: 454px;
 }
-.afterPara i{
+
+.afterPara i {
     position: absolute;
     left: 396px;
-    top: 446px;
+    top: 452px;
     font-size: 24px;
 }
 
 /* -------------------ABOUT(Container2)----------------------- */
-.container2{
+.container2 {
     height: 80vh;
     width: 80vw;
     /* display: flex; */
     /* flex-direction: column;align-items: center; */
 }
 
-.cen{
+.cen {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.cen h6{
+
+.cen h6 {
     width: 50px;
     background-color: aqua;
     color: rgb(79, 79, 236);
     border-radius: 30px;
     margin-top: 8px;
-    
+
 }
-.part1 span{
+
+.part1 span {
     color: rgb(79, 79, 236);
 }
-.part1{
+
+.part1 {
     text-align: center;
 }
- /* Center the section and limit its width */
+
+/* Center the section and limit its width */
 .part2-wrapper {
-  max-width: 1100px;
-  width: 100%;
-  padding: 20px;
-  margin: auto;
+    max-width: 1100px;
+    width: 100%;
+    padding: 20px;
+    margin: auto;
 }
 
 /* Image and Text side-by-side */
 .part2 {
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
-  position: relative;
-  left: 62px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    position: relative;
+    left: 62px;
 }
 
 /* Image side */
 .leftPart img {
-  width: 102%;
-  height: 340px;
-  border-radius: 4px;
+    width: 102%;
+    height: 340px;
+    border-radius: 4px;
 }
 
 /* Right content */
 .rightPart {
-  flex: 1;
-  padding: 10px 10px;
+    flex: 1;
+    padding: 10px 10px;
 }
 
 .rightPart h3 {
-  font-size: 20px;
-  font-weight: 600;
-  color: #2c2c2c;
-  margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2c2c2c;
+    margin-bottom: 10px;
 }
 
 .rightPart p {
-  font-size: 15px;
-  color: #555;
-  margin-bottom: 15px;
-  line-height: 1.6;
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.6;
 }
 
 /* Mid content rows (icon + text) */
-.midPara1, .midPara2 {
-  display: flex;
-  align-items: flex-start;
-  gap: 15px;
-  margin-bottom: 20px;
+.midPara1,
+.midPara2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 20px;
 }
 
-.midPara1 i, .midPara2 i {
-  font-size: 24px;
-  background-color: #eef2fb;
-  padding: 10px;
-  border-radius: 50%;
-  color: #0d6efd;
-  min-width: 40px;
-  text-align: center;
+.midPara1 i,
+.midPara2 i {
+    font-size: 24px;
+    background-color: #eef2fb;
+    padding: 10px;
+    border-radius: 50%;
+    color: #0d6efd;
+    min-width: 40px;
+    text-align: center;
 }
 
-.midPara1 p, .midPara2 p {
-  margin: 0;
-  font-size: 14px;
-  color: #444;
-  line-height: 3;
+.midPara1 p,
+.midPara2 p {
+    margin: 0;
+    font-size: 14px;
+    color: #444;
+    line-height: 3;
 }
 
-/* -------------------ABOUT(Container2)----------------------- */
-.container3{
+/* -------------------SERVICES(Container3)----------------------- */
+.container3 {
     height: 100vh;
     width: 100vw;
     /* display: flex;
@@ -213,7 +236,8 @@
 .servicePart1 {
     text-align: center;
 }
-.servicePart1 h6{
+
+.servicePart1 h6 {
     color: #0d6efd;
     background-color: aqua;
     width: 80px;
@@ -225,9 +249,11 @@
     align-items: center;
     border-radius: 10px;
 }
-.servicePart1 span{
+
+.servicePart1 span {
     color: #0d6efd;
 }
+
 /* ----------------------Grid------------------------------- */
 /* .servicePart2 {
     background-color: antiquewhite;
@@ -238,8 +264,8 @@
     width: 100%;
     justify-content: center;
 } */
- 
- .servicePart2 {
+
+.servicePart2 {
     margin: 2%;
     display: grid;
     grid-template-areas:
@@ -257,22 +283,32 @@
     color: black;
 }
 
- .servicePart2 i{
+.servicePart2 i {
     color: #0d6efd;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 20px;
- }
+    padding: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 20px;
+    height: 10px;
+    margin: 10px;
+    position: relative;
+    left: 132px;
+    top: 14px;
+    font-size: x-large;
+}
+
+.servicePart2 h4 {
+    margin: 4px;
+    padding: 6px;
+}
 
 .card1 {
     grid-area: card1;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .card2 {
@@ -299,22 +335,29 @@
     grid-area: card6;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
-/* ---------------------------------------------------------------- */
-/* .container3 .servicePart2 .card1,.card2,.card3,.card4,.card5,.card6
-{
-    background-color: white;
-    color: black;
-} */
 
+/* ------------------------------TEAM (CONTAINER3)---------------------------------- */
+.container4 {
+    height: 100vh;
+    width: 100vw;
+}
 
-/* @media(min-screen:700px){
-    .servicePart2{
-    background-color: antiquewhite;
-    display: grid;
-    grid-template-columns: repeat(2,400px);
-    gap: 20px;
-    height: 600px;
-    width: 100%;
+.teamPart1{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    }
-} */
+    align-items: center;
+    
+}
+
+.teamPart1 h6 {
+  border: 2px solid #0d6efd; /* Blue border */
+  padding: 4px 10px;         /* Optional: spacing inside */
+  border-radius: 5px;        /* Optional: rounded corners */
+  display: inline-block;     /* Keeps the border wrapped tightly */
+  font-weight: bold;
+}
+
+.teamPart1 h6,span{
+    color: #0d6efd;
+}
