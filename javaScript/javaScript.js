@@ -198,11 +198,11 @@
 // -----------------------------------------------------------------------------FUNCTIONS-------------------------------------------------------------------------------
 
 
-let arr = [12,10,4,8,[33,65,[42,11,[110,20,[3333]]]]];
-let arr1 = [100,222];
+// let arr = [12,10,4,8,[33,65,[42,11,[110,20,[3333]]]]];
+// let arr1 = [100,222];
 // console.log(arr.pop);
 // console.log(arr);
-let str = "Rahul Shibi";
+// let str = "Rahul Shibi";
 // console.log(arr.concat(arr1));
 // console.log(arr1.slice(1,2));
 
@@ -211,6 +211,7 @@ let str = "Rahul Shibi";
 // console.log("----USING SPLIT----");
 // console.log(str.split(" ").join(""));
 // console.log("--------USING SPLIT AND JOIN--------");
+// let str = "Rahul Shibi";
 // console.log(str.replace(" ",""));
 
 // let res = arr.reduce((acc,cur)=>{
@@ -222,7 +223,20 @@ let str = "Rahul Shibi";
 // let res = arr.reduce((acc,cur)=>acc+cur,0)
 // console.log(res);
 // --------------------------------SOME--------------------------------
-let someRes = arr.some((ele)=>ele<0)
-console.log(someRes);
+// let someRes = arr.some((ele)=>ele<0)
+// console.log(someRes);
 // ---------------------------------FLAT--------------------------------
-console.log(arr.flat(Infinity));
+// console.log(arr.flat(Infinity));
+
+// for (let index = 0; index < array.length; index++) {
+//     const element = array[index];
+// }
+let a = [22,4,57,7,2];
+for (let i = 0; i < a.length; i++) {
+    const element = "HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH";
+    console.log(element);
+    for (let j = 0; j < a.length; j++) {
+        const element = a[j];
+        console.log(element);
+    }
+}
